@@ -5,14 +5,11 @@ import { Provider } from 'react-redux'
 import store from './store/stote-dools'
 import Store from './store/index'
 // import Router from './router/index'
-import { setLinkConfig } from '@/router/links-config'
-setLinkConfig()
+// import { setLinkConfig } from '@/router/links-config'
+// setLinkConfig()
 ReactDOM.render(
-  <div>
-    <Provider store={store}>
-      <Store />
-    </Provider>
-    {/* <Router /> */}
-  </div>,
+  <Provider store={store}>
+    <Store />
+  </Provider>,
   document.getElementById('root')
 )
