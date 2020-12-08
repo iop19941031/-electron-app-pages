@@ -1,5 +1,5 @@
 # webpack-react
-基于webpack的react手脚架
+electron-app的前端页面
 
 ## Project setup
 npm install
